@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang = "fr">
+    <head>
+        <meta charset="utf-8">
+        <meta content = "HTML Project" name = "description">
+        <meta content = "Vandeputte François" name = "author">
+        <meta content = "HTML" name = "keywords">
+        <title>HTML Project/Vandeputte François</title>
+        <link href = "../styles/style.css" rel = "stylesheet" type = "text/css">
+    </head>
+
+    <body>
+        <section id = "main">
+            <section class = "group" id = "group1">
+                <article class="layer move">
+                    <h1 class="titleMain">François<br>Vandeputte</h1>
+                    <a href = #header><img id = "arrow" src = "../images/arrowImage.png" alt = “arrowImage”/></a>
+                </article>
+
+                <article class="layer still">
+                    <video autoplay muted loop id = "video"><source src = "../video/video.mp4" type = "video/mp4"></video>
+                </article>
+            </section>
+
+            <header id = "header">
+                <nav>
+                    <section class = "dropdown">
+                        <a id = "home" href = "../projet.html">Home</a>
+                        <section id = "sites">
+                            <button>Sites</button>
+                            <ul>
+                                <li><a href = "../damien/pageDamien.html">Damien</a></li>
+                                <li><a href = "../francois/pageFrancois.html">François</a></li>
+                                <li><a href = "../antoine/antoine.html">Antoine</a></li>
+                                <li><a href = "../dorian/projetDorian.html">Dorian</a></li>
+                            </ul>
+                        </section>
+                    </section>
+                </nav>
+            </header>
+
+            <section class = "group" id = "group2François">
+                <article class = "layer move">
+                    <table id = "tableFrancois">
+                        <caption id = "captionFrancois">Quick presentation</caption>
+                        <tbody>
+                            <tr>
+                                <td class = "tdFrancois">First name : François</td>
+                                <th class = "thFrancois">Hobby's</th>
+                            </tr>
+                            <tr>
+                                <td class = "tdFrancois">Last name : Vandeputte</td>
+                                <td class = "tdFrancois">Road cycling</td>
+                            </tr>
+                            <tr>
+                                <td class = "tdFrancois">E-mail : francoisvndptt@gmail.com</td>
+                                <td class = "tdFrancois">Piano and guitar</td>
+                            </tr>
+                            <tr>
+                                <td class = "tdFrancois">Phone number : 0495 20 41 90</td>
+                                <td class = "tdFrancois">Image & Sound</td>
+                            </tr>
+                            <tr>
+                                <td class = "tdFrancois"><a target = “_blank” href = "https://www.vinci.be/fr/">Studies : Informatique de gestion</a></td>
+                                <td class = "tdFrancois">Scouting</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <img id = "cyclingTeam" src = "../images/cyclingTeam.jpg" alt = "cyclingTeam">
+                </article>
+            </section>
+
+           <section class = "group" id = "group3Francois">
+                <section class = "layer move">
+                    <h1 id = "titleHobbys">Hobby's</h1>
+                    <section id = "sectionImagesHobby">
+                        <img class = "imagesHobby" src = "../images/bicylce.png" alt = "imagesHobby">
+                        <img class = "imagesHobby" src = "../images/guitar.png" alt = "imagesHobby">
+                        <img class = "imagesHobby" src = "../images/camera.png" alt = "imagesHobby">
+                        <img class = "imagesHobby" src = "../images/tent.png" alt = "imagesHobby">
+                    </section>
+                    <section id = "sectionTextHobby">
+                        <p class = "textHobby">During a scouting event called the "24 hours of cycling", I discovered the pleasure of cycling. I quickly bought a road bike and started riding on the flat roads of Belgium. A few months later I joined a club that allowed me to improve even more!</p>
+                        <p class = "textHobby">In my family music is quite important, my parents enrolled me in a music academy at a fairly young age, and then I took guitar lessons. I did 10 years of guitar, which means that I have the level of conservatory. Unfortunately, I had to stop once I got this level because the work became too heavy.</p>
+                        <p class = "textHobby">Thanks to my parents who enrolled me in the academy I also developed a passion for sound, I hesitated to study sound engineering but my preference went to computer science.
+                            When I watch a movie, I think more about the technical aspect than the story itself.</p>
+                        <p class = "textHobby">Like music, scouting is something I've done since I was a kid. Scouting has given me so much knowledge and good times. Knowing how to build a house out of logs seems impossible until you do it.</p>
+                    </section>
+                    <form id = "formFrancois" action = "pageFrancois.html" method = "post">
+                        <h4>feedback</h4>
+                        <label>E-mail:</label>
+                        <input type = "text" placeholder = "Your e-mail..."/>
+                        <label>Message:</label>
+                        <input type = "text" placeholder = "Message..."/>
+                        <input id = "formFrancoisSubmit" type = "submit" value = "submit" />
+                    </form>
+                </section>
+           </section>
+
+            <footer>
+                <p id = "textFooter">
+                    ©All Rights Reserved<br>
+                    Made by: Lapinski Damien, Vandeputte François, Putmans Antoine, Craps Dorian
+                </p>
+            </footer>
+        </section>
+    </body>
+</html>
